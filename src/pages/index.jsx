@@ -82,7 +82,7 @@ const Homepage = () => {
         <div className="w-full max-w-[1440px] mx-auto py-20 px-8 md:px-48">
           <div className="w-full text-center mx-auto bg-primary-main rounded-2xl py-16 px-5 md:px-20">
             <h1 className="font-bold text-neutral-10 md:text-headline-2 text-headline-4">Komitmen Salespack</h1>
-            <p className="text-sm font-normal text-neutral-10 mt-4 leading-relaxed xmobile:px-8 mobile:px-8">Salespack memiliki komitmen dalam menghadirkan kemasan berbahan kertas dengan <span className="font-bold">nilai estetika terbaik</span> namun memenuhi standar kesehatan yaitu <span className="font-bold py-1 px-2 bg-neutral-10 text-primary-main rounded-md">Food Grade Standart</span></p>
+            <p className="text-sm font-normal text-neutral-10 mt-4 leading-relaxed xmobile:px-10 mobile:px-10">Salespack memiliki komitmen dalam menghadirkan kemasan berbahan kertas dengan <span className="font-bold">nilai estetika terbaik</span> namun memenuhi standar kesehatan yaitu <span className="font-bold py-1 px-2 bg-neutral-10 text-primary-main rounded-md">Food Grade Standart</span></p>
           </div>
         </div>
         {/* Food Grade Benefit */}
@@ -103,7 +103,7 @@ const Homepage = () => {
         <SliderProduct />
         {/* Banner */}
         <div className="w-full bg-primary-main">
-          <div className="max-w-[1440px] mx-auto relative mobile:py-20 xmobile:py-20 py-32 mb-16 px-4 md:px-[200px]">
+          <div className="max-w-[1440px] overflow-hidden mx-auto relative mobile:py-20 xmobile:py-20 py-32 mb-16 px-4 md:px-[200px]">
             <img src={brush} alt="brush" className="absolute opacity-20 md:opacity-100 -left-3 top-14 scale-110" />
             <img src={brush} alt="brush" className="absolute opacity-20 md:opacity-100 -right-20 md:right-0 md:bottom-2 bottom-10" />
             <h1 className="font-bold text-neutral-10 text-center md:text-headline-3 text-headline-4">Kualitas dan tampilan terbaik kemasan produk adalah prioritas utama di <span className="py-2 px-4 bg-secondary rounded-lg bg-opacity-20">Salespack</span></h1>
