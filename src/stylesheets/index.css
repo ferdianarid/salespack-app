@@ -3,7 +3,7 @@
         margin: 0;
         padding: 0;
         scroll-behavior: smooth;
-        font-family: "Metropolis", sans-serif;
+        font-family: "Metropolis", Helvetica, sans-serif;
     }
     
     @tailwind base;

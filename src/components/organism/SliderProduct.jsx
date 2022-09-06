@@ -31,7 +31,7 @@ const SliderProduct = () => {
     }
     return (
         <React.Fragment>
-            <div className="w-full max-w-[1440px] mx-auto px-4 my-12 md:my-16 md:px-24">
+            <div className="w-full max-w-[1440px] mx-auto px-4 xmobile:my-6 mobile:my-6 my-12 md:my-16 md:px-24">
                 <Swiper
                     navigation={false}
                     slidesPerView={3}
@@ -41,6 +41,8 @@ const SliderProduct = () => {
                     modules={[Navigation]}
                     centeredSlides={true}
                     breakpoints={{
+                        300: { slidesPerView: 1, spaceBetween: 10, centeredSlides: false },
+                        400: { slidesPerView: 1, spaceBetween: 10, centeredSlides: false },
                         480: { slidesPerView: 1, spaceBetween: 10, centeredSlides: false },
                         640: { slidesPerView: 2, spaceBetween: 10, centeredSlides: false },
                         1024: { slidesPerView: 2, spaceBetween: 20, centeredSlides: false },

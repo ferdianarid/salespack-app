@@ -44,7 +44,7 @@ const Homepage = () => {
         <div className="bg-primary-main">
           <div className="max-w-[1440px] py-10 md:py-[80px] pt-12 mx-auto flex flex-col md:flex-row items-center justify-between px-8 md:px-24">
             <div className="md:w-1/2 w-full md:max-w-[530px] max-w-full">
-              <h1 className="font-bold text-headline-2 md:text-headline-1 text-neutral-10 leading-[1.1]">Kemasan Food Grade Masa Kini.</h1>
+              <h1 className="font-bold xmobile:text-headline-3 mobile:text-headline-3 text-headline-2 md:text-headline-1 text-neutral-10 leading-[1.1]">Kemasan Food Grade Masa Kini.</h1>
               <p className="text-neutral-10 leading-relaxed text-sm mt-5">Kami hadir untuk membantu Anda mengupgrade bisnis Anda lewat kemasan kekinian yang aman dan cocok untuk semua kebutuhan pengemasan dari produk makanan</p>
               <p className="text-headline-7 ipad:text-sm text-center font-semibold hover:cursor-pointer py-3 bg-secondary rounded-2xl text-white mt-5 md:mt-10 px-8 w-fit">Hubungi Kami</p>
             </div>
@@ -57,7 +57,7 @@ const Homepage = () => {
         <div className="w-full max-w-[1440px] mx-auto py-24 md:py-[130px] px-8 md:px-24 flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 md:pr-5">
             <h3 className="font-semibold text-sm text-neutral-10 py-2 px-4 mb-5 rounded-lg bg-primary-main w-fit">Packaging</h3>
-            <h1 className="font-bold text-secondary leading-tight md:text-headline-2 text-headline-3">Spesialis Kemasan Food and Beverages.</h1>
+            <h1 className="font-bold text-secondary leading-tight md:text-headline-2 xmobile:text-headline-4 mobile:text-headline-4 text-headline-3">Spesialis Kemasan Food and Beverages.</h1>
             <p className="text-sm font-normal text-neutral-60 leading-relaxed mt-4">Visualisasi kemasan makanan kini menjadi daya tarik utama dari sebuah produk. Raih lebih banyak pelanggan dengan kemasan yang eyecathing dan aesthetic namun tetap aman bagi kesehatan.</p>
           </div>
           <div className="w-full md:ml-8 mt-8 md:mt-0 md:w-1/2">
@@ -68,7 +68,7 @@ const Homepage = () => {
         <div className="w-full max-w-[1440px] mx-auto py-[45px] px-8 md:px-24">
           <div className="w-full text-center max-w-[550px] mx-auto">
             <h3 className="font-semibold text-sm text-neutral-10 py-2 px-4 mb-5 rounded-lg bg-primary-main w-fit mx-auto">Upgrade Packaging</h3>
-            <h1 className="font-bold text-secondary leading-tight md:text-headline-2 text-headline-3">Mengapa harus upgrade packaging ?</h1>
+            <h1 className="font-bold text-secondary leading-tight md:text-headline-2 text-headline-3 xmobile:text-headline-4 mobile:text-headline-4">Mengapa harus upgrade packaging ?</h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10 md:gap-14 mt-12">
             {BenefitList.map((item) => {
@@ -82,14 +82,14 @@ const Homepage = () => {
         <div className="w-full max-w-[1440px] mx-auto py-20 px-8 md:px-48">
           <div className="w-full text-center mx-auto bg-primary-main rounded-2xl py-16 px-5 md:px-20">
             <h1 className="font-bold text-neutral-10 md:text-headline-2 text-headline-4">Komitmen Salespack</h1>
-            <p className="text-sm font-normal text-neutral-10 mt-4 leading-relaxed">Salespack memiliki komitmen dalam menghadirkan kemasan berbahan kertas dengan <span className="font-bold">nilai estetika terbaik</span> namun memenuhi standar kesehatan yaitu <span className="font-bold py-1 px-2 bg-neutral-10 text-primary-main rounded-md">Food Grade Standart</span></p>
+            <p className="text-sm font-normal text-neutral-10 mt-4 leading-relaxed xmobile:px-8 mobile:px-8">Salespack memiliki komitmen dalam menghadirkan kemasan berbahan kertas dengan <span className="font-bold">nilai estetika terbaik</span> namun memenuhi standar kesehatan yaitu <span className="font-bold py-1 px-2 bg-neutral-10 text-primary-main rounded-md">Food Grade Standart</span></p>
           </div>
         </div>
         {/* Food Grade Benefit */}
         <div className="w-full max-w-[1440px] mx-auto py-[45px] px-8 md:px-24">
           <div className="w-full text-center max-w-[700px] mx-auto">
             <h3 className="font-semibold text-sm text-neutral-10 py-2 px-4 mb-5 rounded-lg bg-primary-main w-fit mx-auto">Food Grade Paper</h3>
-            <h1 className="font-bold text-secondary leading-tight md:text-headline-2 text-headline-3">Kelebihan Kertas Food Grade</h1>
+            <h1 className="font-bold text-secondary leading-tight md:text-headline-2 text-headline-3 xmobile:text-headline-4 mobile:text-headline-4 mobile:px-3 xmobile:px-3">Kelebihan Kertas Food Grade</h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10 md:gap-14 mt-12">
             {FoodGradeBenefit.map((item) => {
@@ -103,7 +103,7 @@ const Homepage = () => {
         <SliderProduct />
         {/* Banner */}
         <div className="w-full bg-primary-main">
-          <div className="max-w-[1440px] mx-auto relative py-32 mb-16 px-4 md:px-[200px]">
+          <div className="max-w-[1440px] mx-auto relative mobile:py-20 xmobile:py-20 py-32 mb-16 px-4 md:px-[200px]">
             <img src={brush} alt="brush" className="absolute opacity-20 md:opacity-100 -left-3 top-14 scale-110" />
             <img src={brush} alt="brush" className="absolute opacity-20 md:opacity-100 -right-20 md:right-0 md:bottom-2 bottom-10" />
             <h1 className="font-bold text-neutral-10 text-center md:text-headline-3 text-headline-4">Kualitas dan tampilan terbaik kemasan produk adalah prioritas utama di <span className="py-2 px-4 bg-secondary rounded-lg bg-opacity-20">Salespack</span></h1>
@@ -113,9 +113,9 @@ const Homepage = () => {
         <div className="w-full max-w-[1440px] mx-auto py-[45px] px-8 md:px-24">
           <div className="w-full text-center max-w-[700px] mx-auto">
             <h3 className="font-semibold text-sm text-neutral-10 py-2 px-4 mb-5 rounded-lg bg-primary-main w-fit mx-auto">Business Partner</h3>
-            <h1 className="font-bold text-secondary leading-tight md:text-headline-2 text-headline-3">Mengapa harus <span className="py-2 px-4 bg-primary-main rounded-lg bg-opacity-20">Salespack</span> ?</h1>
+            <h1 className="font-bold text-secondary md:leading-tight md:text-headline-2 text-headline-3 xmobile:text-headline-4 mobile:text-headline-4 leading-relaxed">Mengapa harus <span className="py-2 px-4 bg-primary-main rounded-lg bg-opacity-20">Salespack</span> ?</h1>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-12">
             {WhyMustUse.map((item) => {
               return (
                 <PointCard key={item.id} images={item.images} title={item.title} />

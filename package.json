@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",
+    "@typehaus/metropolis": "^12.0.0-next.7",
     "framer-motion": "^7.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

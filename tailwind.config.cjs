@@ -8,7 +8,8 @@ module.exports = {
     theme: {
         extend: {
             screens: {
-                "xs": { "min": "375px", "max": "480px" }
+                "mobile": { "min": "375px", "max": "480px" },
+                "xmobile": { "min": "481px", "max": "639px" },
             },
             fontSize: {
                 "headline-1": "64px",
